@@ -1,33 +1,24 @@
-<!-- Botão lateral para subir a tela -->
-<a name="readme-top"></a>
+<a name="readme-top"></a> <!-- Um link lateral para subir a tela até o topo -->
 
-<!-- Uma div com align center para deixar centralizado -->
-<div align="center">
+<div align="center"> <!-- Uma div com align center para deixar as informações centralizadas -->
 
-  <!-- Na últioma () eu coloco o endereço do site -->
-  [![MIT License][license-shield]](https://github.com/DiegoCarravetta/Pokedex/blob/main/LICENSE)
-  <!-- Preciso aprender a colocar meu link do Linkedin -->
+  [![MIT License][license-shield]](https://github.com/DiegoCarravetta/Pokedex/blob/main/LICENSE) <!-- Nos parenteses, eu coloco o endereço do site -->
   [![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/diego-carravetta-4aa0a5215/)
-
 </div>
 
-<!-- br para quebrar a linha -->
 <br />
 
-<!-- Uma div com align center para colocar a logo do projeto -->
-<div align="center">
+<div align="center"> <!-- Uma div com align center para colocar a logo do projeto centralizada -->
   <img src="images/Pokedex.png" alt="Logo" width="80" height="80">
 </div>
 
-<!-- Índice -->
-<details>
+<details> <!-- Índice -->
   <summary>Índice</summary>
   <ol>
     <li>
-      <!-- Link para o título -->
       <a href="#sobre">Sobre</a>
       <ul>
-        <li><a href="#ferramentas">Ferramentas</a></li>
+        <li><a href="#tecnologias">Tecnologias</a></li>
       </ul>
     </li>
     <li>
@@ -40,10 +31,9 @@
   </ol>
 </details>
 
-<!-- Título Sobre -->
 ## Sobre
 
-Estou desenvolvendo um CRUD completo, com tema Pokedéx e persistência no banco de dados MongoDB.
+Desenvolvimento de um CRUD completo, com o tema Pokedéx e persistência no banco de dados MongoDB.
 
 Critérios de Avaliação:
 * [GET] Leitura de todas os personagens (0,8);
@@ -55,12 +45,11 @@ Critérios de Avaliação:
 Entrega:
 O projeto deve ser entregue enviando o link do GitHub na atividade no Moodle.
 
-<!-- Aqui eu uso o link lateral para subir a tela -->
-<p align="right">(<a href="#readme-top">Voltar para o topo</a>)</p>
+<p align="right">(<a href="#readme-top">Voltar para o topo</a>)</p> <!-- Aqui eu uso o link lateral, setado no começo do código, que faz a página ir ao topo -->
 
 ### Ferramentas
 
-Essas são as ferramentas utilizadas na produção do projeto:
+Trabalharemos com as seguintes tecnologias:
 * NodeJS;
 * JavaScript;
 * Express;
