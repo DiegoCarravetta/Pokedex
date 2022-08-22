@@ -33,7 +33,7 @@
 
 ## Sobre
 
-Desenvolvimento de um CRUD completo, com o tema Pokedéx e persistência no banco de dados MongoDB.
+Desenvolvimento de um CRUD completo, com o tema Pokedéx e persistência no banco de dados MongoDB, utilizando uma API.
 
 Critérios de Avaliação:
 * [GET] Leitura de todas os personagens (0,8);
@@ -50,9 +50,10 @@ O projeto deve ser entregue enviando o link do GitHub na atividade no Moodle.
 ### Ferramentas
 
 Trabalharemos com as seguintes tecnologias:
-* NodeJS;
-* JavaScript;
-* Express;
+* Motor NodeJS;
+* Linguagem de Programação JavaScript;
+* Framework Express;
+* Estrutura de Dados JSON
 * MongoDB;
 * JWT;
 
@@ -62,13 +63,54 @@ Trabalharemos com as seguintes tecnologias:
 
 Abaixo estão listados os comandos do Terminal para instalação de ferramentas e componentes necessários para desenvolver o projeto.
 
-### Instalação
-
 * Clone o repositório;
    ```sh
    git clone https://github.com/DiegoCarravetta/Pokedex.git
    ```
-* Inicialize o projeto;
+* Crie uma pasta chamada:
+   ```sh
+   .vscode
+   ```
+* Dentro da pasta, crie uma arquivo chamado:
+   ```sh
+   settings.json
+   ```
+* Dentro do arquivo, digite o seguinte código:
+   ```sh
+  {
+    "editor.codeActionsOnSave":
+    {
+      "source.fixAll": true
+    },
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]":
+    {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+  }
+   ```
+* Na raiz crie um arquivo chamado:
+   ```sh
+   .prettierrc.json
+   ```
+* Dentro do arquivo, digite o seguinte código:
+   ```sh
+  {
+    "trailingComma": "all",
+    "singleQuote": true,
+    "endOfLine": "lf",
+    "tabWidth": 2,
+    "arrowParens": "always",
+    "printWidth": 80
+  }
+   ```
+
+### Instalação
+
+A partir de agora, siga essas instalações, pelo terminal, para poder fazer com que a API rode em seu sistema:
+
    ```sh
    npm init -y
    ```
@@ -100,7 +142,7 @@ Diego Carravetta - diegocarravetta@gmail.com
 
 Link do Projeto: [https://github.com/DiegoCarravetta](https://github.com/DiegoCarravetta/Pokedex)
 
-## Links Úteis
+## Links Úteis <!-- Esses são os links dos escudos da license e Linkedin -- >
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
