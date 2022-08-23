@@ -111,6 +111,7 @@ Abaixo estão listados os comandos do Terminal para instalação de ferramentas 
 
 A partir de agora, siga essas instalações, pelo terminal, para poder fazer com que a API rode em seu sistema:
 
+* Instale o NPM;
    ```sh
    npm init -y
    ```

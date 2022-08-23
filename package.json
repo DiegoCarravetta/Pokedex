@@ -4,7 +4,9 @@
   "description": "<a name=\"readme-top\"></a> <!-- Um link lateral para subir a tela até o topo -->",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,10 @@
   },
   "homepage": "https://github.com/DiegoCarravetta/Pokedex#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
   }
 }
