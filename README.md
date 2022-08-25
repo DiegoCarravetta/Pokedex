@@ -143,9 +143,10 @@ Diego Carravetta - diegocarravetta@gmail.com
 
 Link do Projeto: [https://github.com/DiegoCarravetta](https://github.com/DiegoCarravetta/Pokedex)
 
-## Links Úteis <!-- Esses são os links dos escudos da license e Linkedin -- >
+## Links Úteis
 
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+<!-- Esses são os links dos escudos da license e Linkedin -->
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555 
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 
 <p align="right">(<a href="#readme-top">Voltar para o topo</a>)</p>
